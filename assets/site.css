@@ -225,3 +225,6 @@ h1{font-size:clamp(46px,5.8vw,96px);font-weight:300}
 @media (max-width:380px){.top-in{gap:12px}.top-tel{font-size:13px}.btn{white-space:normal;text-align:center}.lv-s{white-space:normal;text-align:center}.logo-m{display:none}}
 .badge{left:auto;right:0;top:auto;bottom:3%}
 @media (max-width:760px){.badge{bottom:auto;top:2%}}
+
+/* кнопка «Показать ещё отзывы» и другие скрытые элементы прячутся по-настоящему */
+[hidden]{display:none!important}
